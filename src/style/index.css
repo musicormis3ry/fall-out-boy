@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgray;
+  border-radius: 4px;
+  transition: 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: lavender;
+  transition: 1s;
+}
+
+.header {
+  font-family: "Roboto Slab", serif;
+  background-color: lavender;
+  font-weight: 300;
+}

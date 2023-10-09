@@ -1,0 +1,75 @@
+.InputBox {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+input {
+  border: none;
+}
+
+.queryBox {
+  transition: 0.5s;
+  margin-top: 2%;
+  height: 20px;
+  width: 40%;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.queryBox-mobile {
+  margin-top: 4%;
+}
+
+.queryBox:focus {
+  transition: 0.5s;
+  outline: none;
+  border-radius: 20px;
+  border-color: lavender;
+}
+
+.submitButton {
+  transition: 0.5s;
+  padding: 5px;
+  height: 30px;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+  color: white;
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.submitButton:hover {
+  transition: 0.5s;
+  background-color: lavender;
+  cursor: pointer;
+}
+
+.submitButton:focus {
+  outline: none;
+  transition: 0.5s;
+}
+
+.filterModalButton {
+  background-color: lavender;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.filterModalButton:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.filtersWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}

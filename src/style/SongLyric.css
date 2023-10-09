@@ -1,0 +1,16 @@
+.SongLyric {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+}
+
+.lyric {
+  font-size: 18px;
+}
+
+.query {
+  background-color: rgb(220, 220, 250);
+}
